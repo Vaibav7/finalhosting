@@ -64,7 +64,7 @@ const Frontend = () => {
         className="w-full max-w-md bg-white shadow-xl rounded-lg p-8 space-y-6 border-t-4 border-blue-500"
         onSubmit={handleSubmit}
       >
-        <h1 className="text-3xl font-extrabold text-center text-blue-700">Add Employee</h1>
+        <h1 className="text-3xl font-extrabold text-center text-blue-700">EMPLOYEE DETAILS</h1>
         {message && (
           <div className="text-green-600 text-center bg-green-100 p-2 rounded-lg mb-4">
             {message}

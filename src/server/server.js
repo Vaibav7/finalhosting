@@ -14,7 +14,7 @@ const db = mysql.createPool({
   host: 'localhost',
   user: 'root',
   password: '210504',
-  database: 'employee_managemen',
+  database: 'empl',
 });
 
 // API to add employee
